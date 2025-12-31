@@ -34,7 +34,6 @@ So far the values could be formatted to work for a standard SQL DB. The only pro
 - "EmailAddress": <str>
 - "PhoneNumber": <int>
 - "DOB": <str>
-- "State": <str>
 - "PhysicalID": <str> (can vary; DL, Tribal ID, Passport, etc.)
 - "IsMedical": <bool>
 - "Discounted": <bool> (for veterans, special customers, etc.)
@@ -66,3 +65,26 @@ So far the values could be formatted to work for a standard SQL DB. The only pro
 - "FinalTotal": (RunningTotal - Discounts) + Taxes
 - "PaymentType": "cash", "card"
 - "Status": "cancelled", "complete", "open", "voided"
+
+
+## Branding Notes
+Name: BudShop?
+
+### Colors
+Labeled using Flutter/Dart color codes
+
+| Name | HexCode | Flutter Name |
+| --- | --- | --- |
+| Purple | #ab47bc | .purple[400] |
+| Orange | #ff7403 | .deepOrange[400] |
+| Bright Green | #d4e157 | .lime[400] |
+| Cyan | #84ffff | .cyanAccent[100] |
+| Olive Green | #7cb342 | .lightGreen[600] |
+| Brown | #8d6e63 | .brown[400] |
+| White | #fafafa | .grey[50] |
+| Black | #212121 | .grey[900] |
+
+### Fonts
+- Sans-serif: Public Sans
+- Serif: Bitter
+- Monospace: Atkinson Hyperlegible Mono
