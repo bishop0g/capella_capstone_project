@@ -64,6 +64,13 @@ So far the values could be formatted to work for a standard SQL DB. The only pro
 - "Status": "cancelled", "complete", "open", "voided"
 
 # WEEK 2 NOTES:
+## User Flow:
+User Opens app
+Prompt to log in OR if logged in proceed to Home:
+- Inventory > List of Products
+- Cart > saved Products, links to Checkout
+- Account > Emp/Customer info, transaction history, metrics
+
 ## Pages list:
 - Account
 - Cart (links to Checkout)
@@ -71,3 +78,14 @@ So far the values could be formatted to work for a standard SQL DB. The only pro
 - Home
 - Inventory (ListView.builder)
 - Login
+- Metrics
+
+## Widgets List:
+### Stateful:
+- ProductCard
+- ProductList
+- CartContents?
+- 
+
+### Stateless:
+- Account Page stuff

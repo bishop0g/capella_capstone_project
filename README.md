@@ -23,7 +23,6 @@ Labeled using Flutter/Dart color codes
 - Serif: Bitter
 - Monospace: Atkinson Hyperlegible Mono
 
-
 ## Flutter Ideas:
 - IntroductionScreen
 - Flexible widget for ratio'd Flex containers, Expanded for auto-Flex
